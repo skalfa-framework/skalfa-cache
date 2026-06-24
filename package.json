@@ -1,0 +1,25 @@
+{
+  "name": "@skalfa/skalfa-cache",
+  "version": "1.0.0",
+  "description": "Cache utility package for Skalfa API framework using Redis.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --ignoreDeprecations 6.0"
+  },
+  "keywords": [
+    "aluna",
+    "cache",
+    "redis",
+    "skalfa"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@skalfa/skalfa-redis": "file:../skalfa-redis"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "typescript": "^6.0.3"
+  }
+}
