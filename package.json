@@ -1,6 +1,6 @@
 {
   "name": "@skalfa/skalfa-cache",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Redis-backed high-performance client-side and server-side caching extension for Skalfa backend services.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
